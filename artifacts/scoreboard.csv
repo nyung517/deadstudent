@@ -1,0 +1,7 @@
+rank,model,precision,recall,f1,auc,precision_at_k,k
+1,random_forest,0.7323,0.7965,0.763,0.8977,0.9833,60
+2,hist_gradient_boosting,0.7985,0.7368,0.7664,0.8997,0.9833,60
+3,logistic_regression,0.7245,0.8211,0.7697,0.9063,0.9667,60
+4,decision_tree,0.7143,0.7719,0.742,0.8707,0.9333,60
+5,human_rule,0.473,0.8912,0.618,0.7098,0.35,60
+6,do_nothing,0.0,0.0,0.0,0.5,0.3187,60
