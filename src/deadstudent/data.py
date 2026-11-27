@@ -22,7 +22,7 @@ def normalise_columns(frame: pd.DataFrame) -> pd.DataFrame:
     mapping: dict[str, str] = {}
     for name in frame.columns:
         key = name.replace("\ufeff", "").strip().lower()
-        key = key.replace(" (", "_").replace(")", "").replace(" ", "_").replace("'", "")
+        key = key.replace(" (", "_").replace(")", "").replace(" ", "_").replace("'", "").replace("/", "_")
         mapping[name] = key
     return frame.rename(columns=mapping)
 
