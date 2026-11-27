@@ -1,0 +1,2 @@
+rank,model,precision,recall,f1,auc,precision_at_k,k
+0,hist_gradient_boosting_test,0.8196,0.7359,0.7755,0.898,1.0,60
